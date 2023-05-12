@@ -1,0 +1,7 @@
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/close-up-silhouette-man-talking-phone_1098-2344.jpg?w=900&t=st=1666105141~exp=1666105741~hmac=cad3f4023f5649237b2b2398546f8e18dc1b8340d8e9111bb33b25436542f99f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

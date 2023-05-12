@@ -1,0 +1,72 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.navbar-nav{
+    padding-left:30px;
+    padding-right:30px;
+}
+.commongrid{
+    display: grid;
+    grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-row: 1rem 1fr 5rem;
+   
+}
+
+header{
+    grid-area: 'header';
+}
+
+main{
+    grid-area: 'main';
+    min-height: 100vh;
+}
+
+footer{
+    grid-area: 'footer';
+    background-color: black;
+    text-align: center;
+    color: gainsboro; 
+    margin-bottom: 0;  
+}
+
+#decreaseStyle{
+    color: red;
+}
+
+#displayGrey{
+    color: grey;
+}
+
+#numberBlue{
+    color: darkblue;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+#bottomPageSpan{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+h4{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+#decreaseStyle{
+    color: red;
+}
+
+
+

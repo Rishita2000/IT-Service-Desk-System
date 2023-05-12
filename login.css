@@ -1,0 +1,101 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+
+.user h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    }
+    
+
+.box{
+width: 300px;
+padding: 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background:#191919;
+text-align: center;
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding:14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.email{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.pass{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+
+.pass2{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.box h1{
+color: white;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+
+.box input[type = "text"]:focus,.box input[type = "password"]{
+    width:280px;
+}
+
+
+.button{
+    border:0;
+    background: none;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #3498db;
+    padding:14px 10px;
+    width: 100px;
+    outline: none;
+    position: bottom;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
